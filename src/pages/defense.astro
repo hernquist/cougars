@@ -5,8 +5,7 @@ import Card from '../components/Card.astro';
 <main>
     <h1><span class="text-gradient">defense</span></h1>
     <div class="play">
-        <p>Here is the zone defense with which we will start the season </p>
-        <p>I will assign positions by calling out Henry 1, Finley 2, Carson 3, etc</p>
+        <p>Here is the zone defense with which we will start the season. I will assign positions by calling out Henry 1, Finley 2, Carson 3, etc</p>
         <img src="/defensive-zone-1.png" />
     </div>
 
@@ -20,7 +19,9 @@ import Card from '../components/Card.astro';
 <style>
     .play {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+
+        align-items: center;
     }
     img {
         width: 100%;
