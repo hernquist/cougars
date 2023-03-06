@@ -4,6 +4,11 @@ import Card from '../components/Card.astro';
 
 <main>
     <h1><span class="text-gradient">defense</span></h1>
+    <div class="play">
+        <p>Here is the zone defense with which we will start the season </p>
+        <p>I will assign positions by calling out Henry 1, Finley 2, Carson 3, etc</p>
+        <img src="/defensive-zone-1.png" />
+    </div>
 
     <Card
 		href="/"
@@ -11,3 +16,17 @@ import Card from '../components/Card.astro';
         body=""
 	/>
 </main>
+
+<style>
+    .play {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        width: 100%;
+        max-width: 800px;
+        border: 2px solid gray;
+        border-radius: 8px;
+   
+    }
+</style>
