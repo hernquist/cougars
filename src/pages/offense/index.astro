@@ -1,23 +1,24 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Card from '../../components/Card.astro';
+import Layout from '../../layouts/Layout.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="offense">
 	<main>
-		<h1>Welcome to the <span class="text-gradient">Cougars</span></h1>
+		<h1><span class="text-gradient">OFFENSE</span></h1>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="/offense"
-				title="OFFENSE"
-				body="Offensive set-ups and plays"
-			/>
-			<Card
-				href="/defense"
-				title="DEFENSE"
-				body="Defensive schema."
+			href="/offense/split-back-cross"
+			title="Split Back Cross"
+			body="Runs fakes and play actions"
 			/>
 		</ul>
+
+		<Card
+		href="/"
+		title="HOME"
+		body=""
+		/>
 	</main>
 </Layout>
 
@@ -26,7 +27,7 @@ import Card from '../components/Card.astro';
 		margin: auto;
 		padding: 1.5rem;
 		max-width: 60ch;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 	h1 {
 		font-size: 3rem;
