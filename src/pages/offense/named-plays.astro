@@ -1,0 +1,50 @@
+---
+import Card from '../../components/Card.astro';
+---
+
+<main>
+    <h1><span class="text-gradient">OFFENSE -- NAMED PLAYS</span></h1>
+    <div class="play">
+        <h2>The Luke</h2>
+        <p>The 3 goes the longest</p>
+        <p>The 6 is all alone on the right</p>
+        <p>Try to memorize but we will have the diagram in the game.</p>    
+
+        <img src="/TheLuke.png" />
+
+    <Card
+		href="/"
+		title="HOME"
+        body=""
+	/>
+</main>
+
+<style>
+    main {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .play {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    
+    h4 {
+        margin: 10px 0;
+    }
+    
+    p {
+        margin: 1px 0;
+    }
+
+    img {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 800px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0c0c0c;
+        margin-bottom: 10px;
+    }
+</style>
