@@ -1,0 +1,47 @@
+---
+import Card from '../components/Card.astro';
+---
+
+<main>
+    <h1><span class="text-gradient">First six plays</span></h1>
+    <div class="play">
+        <ol>
+            <li>  SPLIT BACK -- CROSS -- HANDOFF RIGHT</li>
+            <li>  5 WIDE -- THE LUKE</li>
+            <li>  SPLIT BACK -- CROSS -- HANDOFF LEFT</li>
+            <li>  SPLIT BACK -- CROSS -- ROLL RIGHT</li>
+            <li>  5 WIDE -- 4 IN MOTION -- POP TO THE 4</li>
+            <li>  5 WIDE -- 4 IN MOTION -- FAKE TO TO THE 4 (PASS PLAY)</li>
+        </ol>
+    </div>
+
+    <Card
+		href="/"
+		title="HOME"
+        body=""
+	/>
+</main>
+
+<style>
+    main {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .play {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    ol {
+        font-size: 24px;
+    }
+    li {
+        margin: 6px 0;
+    }
+    img {
+        width: 100%;
+        max-width: 800px;
+        border: 2px solid gray;
+        border-radius: 8px;
+    }
+</style>
